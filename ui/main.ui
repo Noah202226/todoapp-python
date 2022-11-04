@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>452</width>
+    <width>451</width>
     <height>687</height>
    </rect>
   </property>
@@ -130,9 +130,9 @@
     <widget class="QPushButton" name="newTodoBtn">
      <property name="geometry">
       <rect>
-       <x>310</x>
+       <x>320</x>
        <y>10</y>
-       <width>75</width>
+       <width>81</width>
        <height>23</height>
       </rect>
      </property>
@@ -212,6 +212,61 @@
       <string>LISTING</string>
      </property>
     </widget>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>90</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Quicksand Light</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Select Task Type</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="taskType">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>90</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Quicksand SemiBold</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <item>
+     <property name="text">
+      <string>LIST</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>LONGTASK</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NOEMSPRINT</string>
+     </property>
+    </item>
    </widget>
    <widget class="QFrame" name="frame2">
     <property name="geometry">
@@ -304,62 +359,13 @@
        <height>221</height>
       </rect>
      </property>
+     <property name="lineWrapMode">
+      <enum>QTextEdit::WidgetWidth</enum>
+     </property>
+     <property name="lineWrapColumnOrWidth">
+      <number>0</number>
+     </property>
     </widget>
-   </widget>
-   <widget class="QLabel" name="label_7">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>90</y>
-      <width>211</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Quicksand Light</family>
-      <pointsize>18</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Select Task Type</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="taskType">
-    <property name="geometry">
-     <rect>
-      <x>230</x>
-      <y>90</y>
-      <width>201</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Quicksand SemiBold</family>
-      <pointsize>12</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="layoutDirection">
-     <enum>Qt::LeftToRight</enum>
-    </property>
-    <item>
-     <property name="text">
-      <string>LIST</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>LONGTASK</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>NOEMSPRINT</string>
-     </property>
-    </item>
    </widget>
    <widget class="QFrame" name="frame3">
     <property name="geometry">
